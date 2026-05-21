@@ -23,7 +23,7 @@ export default function App() {
       setDisplay(result.toString());
     } catch {
       setDisplay("0");
-      Alert.alert("Error", "Calculo erroneo")
+      Alert.alert("Errror", "Calculo erroneo")
     }
   };
 
